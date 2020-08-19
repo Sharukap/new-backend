@@ -1,13 +1,14 @@
 Methods for Authentication:-
 1)POST http://localhost:3000/users/login => log in user 
 
-include the default username and password if necessary
+include the default username and password in json format
 
-username:Jake
-password:Cro7
+{
+"username":"Jake"
+"password":"Cro7"
+}
 
 
-2)GET http://localhost:3000/users/logout  => log out 
 
 
 Methods after authentication:-
